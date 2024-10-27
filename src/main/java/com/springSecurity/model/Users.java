@@ -1,4 +1,4 @@
-package com.telusko.model;
+package com.springSecurity.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

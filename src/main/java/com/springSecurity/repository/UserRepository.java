@@ -1,9 +1,9 @@
-package com.telusko.repository;
+package com.springSecurity.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.telusko.model.Users;
+import com.springSecurity.model.Users;
 
 @Repository
 public interface UserRepository extends JpaRepository<Users, Integer>{

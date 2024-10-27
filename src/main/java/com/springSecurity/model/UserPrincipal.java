@@ -1,4 +1,4 @@
-package com.telusko.model;
+package com.springSecurity.model;
 
 import java.util.Collection;
 import java.util.Collections;

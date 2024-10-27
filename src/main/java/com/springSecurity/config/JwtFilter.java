@@ -1,4 +1,4 @@
-package com.telusko.config;
+package com.springSecurity.config;
 
 import java.io.IOException;
 
@@ -11,8 +11,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.telusko.service.JWTService;
-import com.telusko.service.MyUserDetailsService;
+import com.springSecurity.service.JWTService;
+import com.springSecurity.service.MyUserDetailsService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

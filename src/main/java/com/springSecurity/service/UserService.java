@@ -1,4 +1,4 @@
-package com.telusko.service;
+package com.springSecurity.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -6,8 +6,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 
-import com.telusko.model.Users;
-import com.telusko.repository.UserRepository;
+import com.springSecurity.model.Users;
+import com.springSecurity.repository.UserRepository;
 
 @Service
 public class UserService {

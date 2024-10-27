@@ -1,4 +1,4 @@
-package com.telusko.config;
+package com.springSecurity.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
